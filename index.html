@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="font-poppins">
+
+    <div class="bg-red-600 w-full h-[100vh] z-10 flex items-center justify-center xl:hidden">
+        <h1 class="text-white">Hanya untuk Dekstop</h1>
+    </div>
+
+    <div class="xl:flex xl:flex-row xl:bg-gray-100 xl:gap-2 hidden">
+        <!-- Side Bar Start -->
+        <div class="flex flex-col w-48 items-center relative rounded-xl mt-3">
+            <div class="flex flex-col px-4 self-start">
+                <h1 class="text-2xl font-semibold text-slate-900">My Music</h1>
+                <small class="text-primary">D'Bibi</small>
+            </div>
+
+            <div class="flex flex-col flex-auto pt-16">
+                <div class="p-2 text-sm mb-4 gap-2">
+                    <div class="flex flex-row gap-4 items-center">
+                        <i class="ri-home-2-line block text-lg text-sky-500"></i>
+                        <a href="" class="block text-sky-500">Home</a>
+                    </div>
+                </div>
+                <div class="p-2 text-sm mb-4 gap-2">
+                    <div class="flex flex-row gap-4 items-center text-primary">
+                        <i class="ri-user-6-line block text-lg"></i>
+                        <h3>Account</h3>
+                    </div>
+                </div>
+                <div class="p-2 text-sm mb-4 gap-2">
+                    <div class="flex flex-row gap-4 items-center text-primary">
+                        <i class="ri-bar-chart-box-line block text-lg"></i>
+                        <h3>Activity</h3>
+                    </div>
+                </div>
+                <div class="p-2 text-sm mb-4 gap-2">
+                    <div class="flex flex-row gap-4 items-center text-primary">
+                        <i class="ri-compass-3-line block text-lg"></i>
+                        <h3>Podcast</h3>
+                    </div>
+                </div>
+                <div class="p-2 text-sm mb-4 gap-2">
+                    <div class="flex flex-row gap-4 items-center text-primary">
+                        <i class="ri-message-3-line block text-lg"></i>
+                        <h3>Message</h3>
+                    </div>
+                </div>
+                <div class="p-2 text-sm mb-4 gap-2">
+                    <div class="flex flex-row gap-4 items-center text-primary">
+                        <i class="ri-sun-line block text-lg"></i>
+                        <h3>Themes</h3>
+                    </div>
+                </div>
+                <div class="p-2 text-sm mb-4 gap-2">
+                    <div class="flex flex-row gap-4 items-center text-primary">
+                        <i class="ri-settings-3-line block text-lg"></i>
+                        <h3>Setting</h3>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex flex-row items-center gap-3 absolute bottom-12 px-2 py-1 ring-2 bg-slate-100 ring-white rounded-xl text-sky-600">
+                <i class="ri-login-circle-line text-lg"></i>
+                <h3 class="text-sm">Logout</h3>
+            </div>
+        </div>
+        <!-- Side Bar End -->
+
+        <div class="flex-auto flex flex-col mt-3">
+            <!-- navbar start -->
+            <div class="flex flex-row justify-between items-center">
+                <ul class="flex flex-row gap-16 text-sm">
+                    <li><a href="" class="">Discover</a></li>
+                    <li><a href="" class="">Popular</a></li>
+                    <li><a href="" class="">Latest</a></li>
+                    <li><a href="" class="">Trending</a></li>
+                </ul>
+                <div class="flex flex-row items-center gap-2">
+                    <form action=""
+                        class="flex flex-row items-center ring-1 ring-slate-400 rounded-full px-4 py-2 gap-3 w-80">
+                        <i class="ri-search-line text-sky-500"></i>
+                        <input type="text" placeholder="Search songs here"
+                            class="bg-transparent w-full outline-none text-sm">
+                    </form>
+                    <div
+                        class="bg-gradient-to-tr from-teal-400 to-sky-600 w-10 h-10 rounded-xl shadow-sm shadow-blue-400 flex items-center justify-center">
+                        <i class="ri-equalizer-line text-white text-base"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- navbar end -->
+
+            <!-- Popular Artist -->
+            <div class="flex flex-col mt-3">
+                <h1 class="font-semibold mb-1">Popular Artist</h1>
+                <div class="flex flex-row gap-8 items-center">
+                    <div class="flex flex-col items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-12 h-1w-12 block mb-2">
+                        <small class="text-xs text-slate-800">Habibie</small>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-12 h-1w-12 block mb-2">
+                        <small class="text-xs text-slate-800">Habibie</small>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-12 h-1w-12 block mb-2">
+                        <small class="text-xs text-slate-800">Habibie</small>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-12 h-1w-12 block mb-2">
+                        <small class="text-xs text-slate-800">Habibie</small>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-12 h-1w-12 block mb-2">
+                        <small class="text-xs text-slate-800">Habibie</small>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-12 h-1w-12 block mb-2">
+                        <small class="text-xs text-slate-800">Habibie</small>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-12 h-1w-12 block mb-2">
+                        <small class="text-xs text-slate-800">Habibie</small>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-12 h-1w-12 block mb-2">
+                        <small class="text-xs text-slate-800">Habibie</small>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-12 h-1w-12 block mb-2">
+                        <small class="text-xs text-slate-800">Habibie</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Popular Artist -->
+
+            <!-- Trendy Songs Start -->
+            <div class="flex flex-col mt-3 relative w-full">
+                <h1 class="font-semibold mb-2">Trendy Songs</h1>
+                <div class="absolute flex flex-row gap-1 right-1 top-0 items-center justify-center cursor-pointer">
+                    <i class="ri-arrow-left-s-line w-8 h-7 text-xl flex items-center justify-center rounded-xl"></i>
+                    <i
+                        class="ri-arrow-right-s-line w-8 h-7 text-xl flex items-center justify-center rounded-lg bg-slate-200"></i>
+                </div>
+                <div class="flex flex-row gap-8 w-full">
+                    <div class="flex flex-col relative w-full">
+                        <div class="w-full h-56 bg-cover bg-center bg-no-repeat rounded-3xl shadow-lg mb-2"
+                            style="background-image: url('dist/img/hero.jpg');">
+                        </div>
+                        <div class="">
+                            <h3 class="font-semibold text-xs">The Weekend</h3>
+                            <small class="text-xs block">Starboy</small>
+                            <i class="ri-heart-fill absolute bottom-1 right-0 text-red-700 text-lg"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col relative w-full">
+                        <div class="w-full h-56 bg-cover bg-center bg-no-repeat rounded-3xl shadow-lg mb-2"
+                            style="background-image: url('dist/img/3.jpg');">
+                        </div>
+                        <div class="">
+                            <h3 class="font-semibold text-xs">Havana</h3>
+                            <small class="text-xs block">Camilla Cabelo</small>
+                            <i class="ri-heart-fill absolute bottom-1 right-0 text-slate-700 text-lg"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col relative w-full">
+                        <div class="w-full h-56 bg-cover bg-center bg-no-repeat rounded-3xl shadow-lg mb-2"
+                            style="background-image: url('dist/img/4.jpg');">
+                        </div>
+                        <div class="">
+                            <h3 class="font-semibold text-xs">DJ Sanke</h3>
+                            <small class="text-xs block">Lean On</small>
+                            <i class="ri-heart-fill absolute bottom-1 right-0 text-slate-700 text-lg"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col relative w-full">
+                        <div class="w-full h-56 bg-cover bg-center bg-no-repeat rounded-3xl shadow-lg mb-2"
+                            style="background-image: url('dist/img/5.jpg');">
+                        </div>
+                        <div class="">
+                            <h3 class="font-semibold text-xs">HAL</h3>
+                            <small class="text-xs block">L</small>
+                            <i class="ri-heart-fill absolute bottom-1 right-0 text-slate-700 text-lg"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- Trendy Songs Start -->
+
+            <!-- Recently Played Start -->
+            <div class="flex flex-col mt-3 relative w-full">
+                <h1 class="font-semibold mb-1">Recently Played</h1>
+                <div class="absolute flex flex-row right-1 items-center justify-center cursor-pointer">
+                    <i class="ri-arrow-left-s-line w-8 h-8 text-xl flex items-center justify-center rounded-xl"></i>
+                    <i
+                        class="ri-arrow-right-s-line w-8 h-8 text-xl flex items-center justify-center rounded-lg bg-slate-200"></i>
+                </div>
+                <div class="flex flex-row items-center gap-4 w-full">
+                    <div class="flex items-center justify-center w-4/5 h-[10.70rem] bg-cover bg-center bg-no-repeat rounded-3xl shadow-lg mb-2"
+                        style="background-image: url('dist/img/hero.jpg');">
+                        <div
+                            class="w-12 h-12 flex items-center justify-center bg-gradient-to-r from-white/30 to-slate-900/30 backdrop-blur-md rounded-full">
+                            <i class="ri-play-fill block text-2xl text-white cursor-pointer"></i>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-4 w-full">
+                        <div
+                            class="flex flex-row items-center justify-between bg-gray-100 ring-2 ring-white rounded-xl shadow-xl p-2 w-full">
+                            <div class="flex flex-row items-center">
+                                <img src="dist/img/profile.png" alt="" class="w-10 h-10 block mr-4">
+                                <div class="title flex flex-col">
+                                    <h5 class="text-[11px] text-gray-600">Zayan Malik</h5>
+                                    <h3 class="text-sm font-semibold">Pillow Talk</h3>
+                                </div>
+                            </div>
+                            <div class="flex flex-row items-center gap-8">
+                                <img src="dist/img/equalizer1.png" alt="" class="h-9 w-36 fill-white">
+                                <div
+                                    class="w-8 h-8 flex items-center justify-center bg-gradient-to-tl from-sky-400 to-blue-700 rounded-full shadow-sm shadow-blue-600">
+                                    <i class="ri-play-fill block text-xl text-white cursor-pointer"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-row items-center justify-between bg-gray-100 ring-2 ring-white rounded-xl shadow-xl p-2 w-full">
+                            <div class="flex flex-row items-center">
+                                <img src="dist/img/profile.png" alt="" class="w-10 h-10 block mr-4">
+                                <div class="title flex flex-col">
+                                    <h5 class="text-[11px] text-gray-600">Zayan Malik</h5>
+                                    <h3 class="text-sm font-semibold">Pillow Talk</h3>
+                                </div>
+                            </div>
+                            <div class="flex flex-row items-center gap-8">
+                                <img src="dist/img/equalizer1.png" alt="" class="h-9 w-36 fill-white">
+                                <div
+                                    class="w-8 h-8 flex items-center justify-center bg-gradient-to-tl from-sky-400 to-blue-700 rounded-full shadow-sm shadow-blue-600">
+                                    <i class="ri-play-fill block text-xl text-white cursor-pointer"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Recently Played End -->
+        </div>
+
+        <div class="w-80 flex flex-col px-4">
+            <!-- Friends Activity -->
+            <div class="flex flex-col mt-3 gap-3 relative">
+                <div class="head mb-3">
+                    <h1 class="font-semibold">Friends Activity</h1>
+                    <small class="block">250 Friends</small>
+                </div>
+
+                <div class="flex flex-row items-center justify-between gap-3 pl-3 w-full mb-1">
+                    <div class="flex flex-row items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-10 h-10 block mr-4">
+                        <div class="title flex flex-col gap-1">
+                            <div class="flex flex-row items-center gap-1">
+                                <div class="w-2 h-2 rounded-full bg-yellow-400"></div>
+                                <h3 class="text-xs font-semibold">Untuk Apa</h3>
+                            </div>
+                            <h5 class="text-[10px] text-primary">Listening to Hindia</h5>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <img src="dist/img/equalizer1.png" alt="" class="h-6 w-20 fill-white">
+                    </div>
+                </div>
+
+                <div class="flex flex-row items-center justify-between pl-3 w-full mb-1">
+                    <div class="flex flex-row items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-10 h-10 block mr-4">
+                        <div class="title flex flex-col gap-1">
+                            <div class="flex flex-row items-center gap-1">
+                                <div class="w-2 h-2 rounded-full bg-green-800"></div>
+                                <h3 class="text-xs font-semibold">cigarettes of ours</h3>
+                            </div>
+                            <h5 class="text-[10px] text-primary">Listening to Ardhito Pramano</h5>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <img src="dist/img/equalizer1.png" alt="" class="h-6 w-20 fill-white">
+                    </div>
+                </div>
+
+                <div class="flex flex-row items-center justify-between pl-3 w-full mb-1">
+                    <div class="flex flex-row items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-10 h-10 block mr-4">
+                        <div class="title flex flex-col gap-1">
+                            <div class="flex flex-row items-center gap-1">
+                                <div class="w-2 h-2 rounded-full bg-purple-800"></div>
+                                <h3 class="text-xs font-semibold">Happines</h3>
+                            </div>
+                            <h5 class="text-[10px] text-primary">Listening to Rex Orange County</h5>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <img src="dist/img/equalizer1.png" alt="" class="h-6 w-20 fill-white">
+                    </div>
+                </div>
+
+                <div class="flex flex-row items-center justify-between pl-3 w-full mb-3">
+                    <div class="flex flex-row items-center">
+                        <img src="dist/img/profile.png" alt="" class="w-10 h-10 block mr-4">
+                        <div class="title flex flex-col gap-1">
+                            <div class="flex flex-row items-center gap-1">
+                                <div class="w-2 h-2 rounded-full bg-blue-800"></div>
+                                <h3 class="text-xs font-semibold">keepyousafe</h3>
+                            </div>
+                            <h5 class="text-[10px] text-primary">Listening to Yahya</h5>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <img src="dist/img/equalizer1.png" alt="" class="h-6 w-20 fill-white">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Play Start -->
+            <div class="w-full h-full flex flex-col pl-3 mb-2">
+                <div class="h-full w-full rounded-xl shadow-lg overflow-hidden bg-cover bg-center1 bg-no-repeat flex"
+                    style="background-image: url('dist/img/5.jpg') ;">
+                    <div class="flex flex-col gap-4 w-full self-end px-8 py-4 backdrop-blur-lg">
+                        <div class="flex items-center flex-col">
+                            <h1 class="font-semibold text-white">Ardhito Pramano</h1>
+                            <small class="text-xs text-white/30">cigarettes of ours</small>
+                            <small></small>
+                        </div>
+                        <div class="w-full">
+                            <div class="backdrop-blur-md bg-white/10 w-full rounded mb-1">
+                                <div class="w-3/4 h-1 bg-gradient-to-l from-fuchsia-700 to-purple-900 rounded relative">
+                                    <div
+                                        class="w-2 h-2 rounded-full absolute -top-[2px]  bg-fuchsia-700 right-0 ring-2 ring-white">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between">
+                                <small class="text-[10px] text-white/80">00.00</small>
+                                <small class="text-[10px] text-white/80">03.51</small>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row items-center justify-evenly">
+                            <i class="ri-skip-back-fill block text-white/30"></i>
+                            <i class="ri-rewind-line block text-white/30"></i>
+                            <div
+                                class="w-9 h-9 flex items-center justify-center bg-gradient-to-tl from-sky-400 to-blue-700 rounded-full shadow-sm shadow-blue-600">
+                                <i class="ri-play-fill block text-xl text-white cursor-pointer"></i>
+                            </div>
+                            <i class="ri-speed-line block text-white/30"></i>
+                            <i class="ri-skip-forward-fill block text-white/30"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="flex p-4 flex-col bg-slate-300 rounded-lg">
+                    <h1 class="font-semibold">Ardhito Pramano</h1>
+                    <small class="">Pelangi</small>
+                    <small></small>
+                </div> -->
+            </div>
+            <!-- Play End -->
+        </div>
+
+</body>
+
+</html>
